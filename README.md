@@ -1,6 +1,8 @@
 # OpenConnect 
-# Scholarx-frontend
-Frontend dashboard of the scholarX platform
+
+---
+
+Fronend of the OpenConnect Platform
 
 ## Setup Development Environment
 
