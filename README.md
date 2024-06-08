@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# OpenConnect 
+# Scholarx-frontend
+Frontend dashboard of the scholarX platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup Development Environment
 
-Currently, two official plugins are available:
+1. Clone your forked repository
+    ```
+    git clone https://github.com/USERNAME/scholarx-frontend
+    cd scholarx-frontend
+    ```
+2. Install all the dependencies
+    ```
+    npm install
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Start the server with
+    ```
+    npm run dev
+    ```
 
-## Expanding the ESLint configuration
+- Visit your app at http://localhost:5173
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Connecting to the Backend API
 
-- Configure the top-level `parserOptions` property like this:
+The URL for the backend API is stored in an environment variable. To set this up:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Copy the .env file:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```
+    cp example.env .env
+    ```
+
+Replace the environment variables in the newly created .env file with your configuration.
+
+
+Please note that you should not commit this change to the repository. It's recommended to use environment variables for different environments.
