@@ -6,8 +6,8 @@ Frontend dashboard of the scholarX platform
 
 1. Clone your forked repository
     ```
-    git clone https://github.com/USERNAME/scholarx-frontend
-    cd scholarx-frontend
+    git clone https://github.com/USERNAME/openconnect-frontend-v1
+    cd openconnect-frontend-v1
     ```
 2. Install all the dependencies
     ```
