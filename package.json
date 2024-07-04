@@ -1,10 +1,10 @@
 {
-  "name": "open-connet-front",
+  "name": "openconnect-front",
   "private": true,
   "version": "0.0.0",
   "main": "index.js",
   "type": "module",
-  "description": "OpenConnet Frontend",
+  "description": "OpenConnect Frontend",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
